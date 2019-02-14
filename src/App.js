@@ -39,12 +39,18 @@ class App extends Component {
   }
 
   render() {
-    if (this.state.images.length > 0)      
+    if (this.state.hasErrored){
+      return (
+        <div className="App">
+          <p>Sorry, there was an error, please try again later.</p>
+        </div>
+      );
+    } else if (this.state.images.length > 0)      
       return (
         <div className="App">
           <div>
-            <button>
-            <img source={arrow} alt='left arrow' onClick={this.previousImage} />
+            <button onClick={this.previousImage} >
+            <img source={arrow} alt='left arrow' />
             </button>
           </div>
 
@@ -52,19 +58,12 @@ class App extends Component {
             <img src={this.state.images[this.state.imageIndex].webformatURL} alt={this.state.images[this.state.imageIndex].tags} />
           </div>
           <div>
-            <button>
-              <img source={arrow} alt='right arrow' onClick={this.nextImage} />
+            <button onClick={this.nextImage}>
+              <img source={arrow} alt='right arrow'  />
             </button>
           </div>
         </div>
       );
-    else if (this.state.hasErrored){
-      return (
-        <div className="App">
-          <p>Sorry, there was an error, please try again later.</p>
-        </div>
-      );
-    }
     else {
       return (
         <div className="App">
