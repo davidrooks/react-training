@@ -17,7 +17,6 @@ class App extends Component {
   }
 
   previousImage = () => {
-    console.log(this.state);
     if (this.state.imageIndex === 0) {
       this.setState({imageIndex: this.state.images.length - 1});
     } else {
@@ -30,6 +29,7 @@ class App extends Component {
     .then(results => {return results.json()})
     .then(data => {       
       if ('hits' in data && Array.isArray(data.hits)) {  
+        // TODO parse each image to check for required fields
         this.setState({images: data.hits});
       } else {
         this.setState({hasErrored: true});
@@ -46,23 +46,19 @@ class App extends Component {
         </div>
       );
     } else if (this.state.images.length > 0)      
-      return (
-        <div className="App">
-          <div>
+      return (                    
+        <div className="ImageCarousel">
+          <img src={this.state.images[this.state.imageIndex].webformatURL} alt={this.state.images[this.state.imageIndex].tags} />
+          <div className="Navigator">   
             <button onClick={this.previousImage} >
-            <img source={arrow} alt='left arrow' />
+              <img id="previousImage" src={arrow} alt='left arrow'/>
             </button>
-          </div>
 
-          <div className="ImageCarosel">
-            <img src={this.state.images[this.state.imageIndex].webformatURL} alt={this.state.images[this.state.imageIndex].tags} />
-          </div>
-          <div>
             <button onClick={this.nextImage}>
-              <img source={arrow} alt='right arrow'  />
-            </button>
+              <img id="nextImage" src={arrow} alt='right arrow'  />
+            </button>                     
           </div>
-        </div>
+        </div>                  
       );
     else {
       return (

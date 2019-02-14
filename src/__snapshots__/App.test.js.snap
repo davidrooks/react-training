@@ -19,36 +19,34 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <div>
+        <img
+          alt="tags1"
+          src="image1"
+        />,
+        <div
+          className="Navigator"
+        >
           <button
             onClick={[Function]}
           >
             <img
               alt="left arrow"
-              source="arrow.svg"
+              id="previousImage"
+              src="arrow.svg"
             />
           </button>
-        </div>,
-        <div
-          className="ImageCarosel"
-        >
-          <img
-            alt="tags1"
-            src="image1"
-          />
-        </div>,
-        <div>
           <button
             onClick={[Function]}
           >
             <img
               alt="right arrow"
-              source="arrow.svg"
+              id="nextImage"
+              src="arrow.svg"
             />
           </button>
         </div>,
       ],
-      "className": "App",
+      "className": "ImageCarousel",
     },
     "ref": null,
     "rendered": Array [
@@ -57,111 +55,99 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <button
-            onClick={[Function]}
-          >
-            <img
-              alt="left arrow"
-              source="arrow.svg"
-            />
-          </button>,
+          "alt": "tags1",
+          "src": "image1",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <img
-              alt="left arrow"
-              source="arrow.svg"
-            />,
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "left arrow",
-              "source": "arrow.svg",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          "type": "button",
-        },
-        "type": "div",
+        "rendered": null,
+        "type": "img",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <img
-            alt="tags1"
-            src="image1"
-          />,
-          "className": "ImageCarosel",
+          "children": Array [
+            <button
+              onClick={[Function]}
+            >
+              <img
+                alt="left arrow"
+                id="previousImage"
+                src="arrow.svg"
+              />
+            </button>,
+            <button
+              onClick={[Function]}
+            >
+              <img
+                alt="right arrow"
+                id="nextImage"
+                src="arrow.svg"
+              />
+            </button>,
+          ],
+          "className": "Navigator",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "tags1",
-            "src": "image1",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <button
-            onClick={[Function]}
-          >
-            <img
-              alt="right arrow"
-              source="arrow.svg"
-            />
-          </button>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <img
-              alt="right arrow"
-              source="arrow.svg"
-            />,
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": Object {
+        "rendered": Array [
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "alt": "right arrow",
-              "source": "arrow.svg",
+              "children": <img
+                alt="left arrow"
+                id="previousImage"
+                src="arrow.svg"
+              />,
+              "onClick": [Function],
             },
             "ref": null,
-            "rendered": null,
-            "type": "img",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "left arrow",
+                "id": "previousImage",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "button",
           },
-          "type": "button",
-        },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="right arrow"
+                id="nextImage"
+                src="arrow.svg"
+              />,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "right arrow",
+                "id": "nextImage",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "button",
+          },
+        ],
         "type": "div",
       },
     ],
@@ -174,36 +160,34 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <div>
+          <img
+            alt="tags1"
+            src="image1"
+          />,
+          <div
+            className="Navigator"
+          >
             <button
               onClick={[Function]}
             >
               <img
                 alt="left arrow"
-                source="arrow.svg"
+                id="previousImage"
+                src="arrow.svg"
               />
             </button>
-          </div>,
-          <div
-            className="ImageCarosel"
-          >
-            <img
-              alt="tags1"
-              src="image1"
-            />
-          </div>,
-          <div>
             <button
               onClick={[Function]}
             >
               <img
                 alt="right arrow"
-                source="arrow.svg"
+                id="nextImage"
+                src="arrow.svg"
               />
             </button>
           </div>,
         ],
-        "className": "App",
+        "className": "ImageCarousel",
       },
       "ref": null,
       "rendered": Array [
@@ -212,111 +196,99 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <button
-              onClick={[Function]}
-            >
-              <img
-                alt="left arrow"
-                source="arrow.svg"
-              />
-            </button>,
+            "alt": "tags1",
+            "src": "image1",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="left arrow"
-                source="arrow.svg"
-              />,
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "left arrow",
-                "source": "arrow.svg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": "button",
-          },
-          "type": "div",
+          "rendered": null,
+          "type": "img",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <img
-              alt="tags1"
-              src="image1"
-            />,
-            "className": "ImageCarosel",
+            "children": Array [
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt="left arrow"
+                  id="previousImage"
+                  src="arrow.svg"
+                />
+              </button>,
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt="right arrow"
+                  id="nextImage"
+                  src="arrow.svg"
+                />
+              </button>,
+            ],
+            "className": "Navigator",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "tags1",
-              "src": "image1",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <button
-              onClick={[Function]}
-            >
-              <img
-                alt="right arrow"
-                source="arrow.svg"
-              />
-            </button>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="right arrow"
-                source="arrow.svg"
-              />,
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": Object {
+          "rendered": Array [
+            Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "alt": "right arrow",
-                "source": "arrow.svg",
+                "children": <img
+                  alt="left arrow"
+                  id="previousImage"
+                  src="arrow.svg"
+                />,
+                "onClick": [Function],
               },
               "ref": null,
-              "rendered": null,
-              "type": "img",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "left arrow",
+                  "id": "previousImage",
+                  "src": "arrow.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "button",
             },
-            "type": "button",
-          },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="right arrow"
+                  id="nextImage"
+                  src="arrow.svg"
+                />,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "right arrow",
+                  "id": "nextImage",
+                  "src": "arrow.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "button",
+            },
+          ],
           "type": "div",
         },
       ],
@@ -366,36 +338,34 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <div>
+        <img
+          alt="tags2"
+          src="image2"
+        />,
+        <div
+          className="Navigator"
+        >
           <button
             onClick={[Function]}
           >
             <img
               alt="left arrow"
-              source="arrow.svg"
+              id="previousImage"
+              src="arrow.svg"
             />
           </button>
-        </div>,
-        <div
-          className="ImageCarosel"
-        >
-          <img
-            alt="tags2"
-            src="image2"
-          />
-        </div>,
-        <div>
           <button
             onClick={[Function]}
           >
             <img
               alt="right arrow"
-              source="arrow.svg"
+              id="nextImage"
+              src="arrow.svg"
             />
           </button>
         </div>,
       ],
-      "className": "App",
+      "className": "ImageCarousel",
     },
     "ref": null,
     "rendered": Array [
@@ -404,111 +374,99 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <button
-            onClick={[Function]}
-          >
-            <img
-              alt="left arrow"
-              source="arrow.svg"
-            />
-          </button>,
+          "alt": "tags2",
+          "src": "image2",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <img
-              alt="left arrow"
-              source="arrow.svg"
-            />,
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "left arrow",
-              "source": "arrow.svg",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          "type": "button",
-        },
-        "type": "div",
+        "rendered": null,
+        "type": "img",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <img
-            alt="tags2"
-            src="image2"
-          />,
-          "className": "ImageCarosel",
+          "children": Array [
+            <button
+              onClick={[Function]}
+            >
+              <img
+                alt="left arrow"
+                id="previousImage"
+                src="arrow.svg"
+              />
+            </button>,
+            <button
+              onClick={[Function]}
+            >
+              <img
+                alt="right arrow"
+                id="nextImage"
+                src="arrow.svg"
+              />
+            </button>,
+          ],
+          "className": "Navigator",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "tags2",
-            "src": "image2",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <button
-            onClick={[Function]}
-          >
-            <img
-              alt="right arrow"
-              source="arrow.svg"
-            />
-          </button>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <img
-              alt="right arrow"
-              source="arrow.svg"
-            />,
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": Object {
+        "rendered": Array [
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "alt": "right arrow",
-              "source": "arrow.svg",
+              "children": <img
+                alt="left arrow"
+                id="previousImage"
+                src="arrow.svg"
+              />,
+              "onClick": [Function],
             },
             "ref": null,
-            "rendered": null,
-            "type": "img",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "left arrow",
+                "id": "previousImage",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "button",
           },
-          "type": "button",
-        },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="right arrow"
+                id="nextImage"
+                src="arrow.svg"
+              />,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "right arrow",
+                "id": "nextImage",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "button",
+          },
+        ],
         "type": "div",
       },
     ],
@@ -521,36 +479,34 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <div>
+          <img
+            alt="tags2"
+            src="image2"
+          />,
+          <div
+            className="Navigator"
+          >
             <button
               onClick={[Function]}
             >
               <img
                 alt="left arrow"
-                source="arrow.svg"
+                id="previousImage"
+                src="arrow.svg"
               />
             </button>
-          </div>,
-          <div
-            className="ImageCarosel"
-          >
-            <img
-              alt="tags2"
-              src="image2"
-            />
-          </div>,
-          <div>
             <button
               onClick={[Function]}
             >
               <img
                 alt="right arrow"
-                source="arrow.svg"
+                id="nextImage"
+                src="arrow.svg"
               />
             </button>
           </div>,
         ],
-        "className": "App",
+        "className": "ImageCarousel",
       },
       "ref": null,
       "rendered": Array [
@@ -559,111 +515,99 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <button
-              onClick={[Function]}
-            >
-              <img
-                alt="left arrow"
-                source="arrow.svg"
-              />
-            </button>,
+            "alt": "tags2",
+            "src": "image2",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="left arrow"
-                source="arrow.svg"
-              />,
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "left arrow",
-                "source": "arrow.svg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": "button",
-          },
-          "type": "div",
+          "rendered": null,
+          "type": "img",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <img
-              alt="tags2"
-              src="image2"
-            />,
-            "className": "ImageCarosel",
+            "children": Array [
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt="left arrow"
+                  id="previousImage"
+                  src="arrow.svg"
+                />
+              </button>,
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt="right arrow"
+                  id="nextImage"
+                  src="arrow.svg"
+                />
+              </button>,
+            ],
+            "className": "Navigator",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "tags2",
-              "src": "image2",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <button
-              onClick={[Function]}
-            >
-              <img
-                alt="right arrow"
-                source="arrow.svg"
-              />
-            </button>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="right arrow"
-                source="arrow.svg"
-              />,
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": Object {
+          "rendered": Array [
+            Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "alt": "right arrow",
-                "source": "arrow.svg",
+                "children": <img
+                  alt="left arrow"
+                  id="previousImage"
+                  src="arrow.svg"
+                />,
+                "onClick": [Function],
               },
               "ref": null,
-              "rendered": null,
-              "type": "img",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "left arrow",
+                  "id": "previousImage",
+                  "src": "arrow.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "button",
             },
-            "type": "button",
-          },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="right arrow"
+                  id="nextImage"
+                  src="arrow.svg"
+                />,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "right arrow",
+                  "id": "nextImage",
+                  "src": "arrow.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "button",
+            },
+          ],
           "type": "div",
         },
       ],
@@ -713,36 +657,34 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <div>
+        <img
+          alt="tags6"
+          src="image6"
+        />,
+        <div
+          className="Navigator"
+        >
           <button
             onClick={[Function]}
           >
             <img
               alt="left arrow"
-              source="arrow.svg"
+              id="previousImage"
+              src="arrow.svg"
             />
           </button>
-        </div>,
-        <div
-          className="ImageCarosel"
-        >
-          <img
-            alt="tags6"
-            src="image6"
-          />
-        </div>,
-        <div>
           <button
             onClick={[Function]}
           >
             <img
               alt="right arrow"
-              source="arrow.svg"
+              id="nextImage"
+              src="arrow.svg"
             />
           </button>
         </div>,
       ],
-      "className": "App",
+      "className": "ImageCarousel",
     },
     "ref": null,
     "rendered": Array [
@@ -751,111 +693,99 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <button
-            onClick={[Function]}
-          >
-            <img
-              alt="left arrow"
-              source="arrow.svg"
-            />
-          </button>,
+          "alt": "tags6",
+          "src": "image6",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <img
-              alt="left arrow"
-              source="arrow.svg"
-            />,
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "left arrow",
-              "source": "arrow.svg",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          "type": "button",
-        },
-        "type": "div",
+        "rendered": null,
+        "type": "img",
       },
       Object {
         "instance": null,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <img
-            alt="tags6"
-            src="image6"
-          />,
-          "className": "ImageCarosel",
+          "children": Array [
+            <button
+              onClick={[Function]}
+            >
+              <img
+                alt="left arrow"
+                id="previousImage"
+                src="arrow.svg"
+              />
+            </button>,
+            <button
+              onClick={[Function]}
+            >
+              <img
+                alt="right arrow"
+                id="nextImage"
+                src="arrow.svg"
+              />
+            </button>,
+          ],
+          "className": "Navigator",
         },
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "alt": "tags6",
-            "src": "image6",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "img",
-        },
-        "type": "div",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": <button
-            onClick={[Function]}
-          >
-            <img
-              alt="right arrow"
-              source="arrow.svg"
-            />
-          </button>,
-        },
-        "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <img
-              alt="right arrow"
-              source="arrow.svg"
-            />,
-            "onClick": [Function],
-          },
-          "ref": null,
-          "rendered": Object {
+        "rendered": Array [
+          Object {
             "instance": null,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "alt": "right arrow",
-              "source": "arrow.svg",
+              "children": <img
+                alt="left arrow"
+                id="previousImage"
+                src="arrow.svg"
+              />,
+              "onClick": [Function],
             },
             "ref": null,
-            "rendered": null,
-            "type": "img",
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "left arrow",
+                "id": "previousImage",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "button",
           },
-          "type": "button",
-        },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <img
+                alt="right arrow"
+                id="nextImage"
+                src="arrow.svg"
+              />,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "right arrow",
+                "id": "nextImage",
+                "src": "arrow.svg",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "img",
+            },
+            "type": "button",
+          },
+        ],
         "type": "div",
       },
     ],
@@ -868,36 +798,34 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <div>
+          <img
+            alt="tags6"
+            src="image6"
+          />,
+          <div
+            className="Navigator"
+          >
             <button
               onClick={[Function]}
             >
               <img
                 alt="left arrow"
-                source="arrow.svg"
+                id="previousImage"
+                src="arrow.svg"
               />
             </button>
-          </div>,
-          <div
-            className="ImageCarosel"
-          >
-            <img
-              alt="tags6"
-              src="image6"
-            />
-          </div>,
-          <div>
             <button
               onClick={[Function]}
             >
               <img
                 alt="right arrow"
-                source="arrow.svg"
+                id="nextImage"
+                src="arrow.svg"
               />
             </button>
           </div>,
         ],
-        "className": "App",
+        "className": "ImageCarousel",
       },
       "ref": null,
       "rendered": Array [
@@ -906,111 +834,99 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <button
-              onClick={[Function]}
-            >
-              <img
-                alt="left arrow"
-                source="arrow.svg"
-              />
-            </button>,
+            "alt": "tags6",
+            "src": "image6",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="left arrow"
-                source="arrow.svg"
-              />,
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "left arrow",
-                "source": "arrow.svg",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            "type": "button",
-          },
-          "type": "div",
+          "rendered": null,
+          "type": "img",
         },
         Object {
           "instance": null,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <img
-              alt="tags6"
-              src="image6"
-            />,
-            "className": "ImageCarosel",
+            "children": Array [
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt="left arrow"
+                  id="previousImage"
+                  src="arrow.svg"
+                />
+              </button>,
+              <button
+                onClick={[Function]}
+              >
+                <img
+                  alt="right arrow"
+                  id="nextImage"
+                  src="arrow.svg"
+                />
+              </button>,
+            ],
+            "className": "Navigator",
           },
           "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "tags6",
-              "src": "image6",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          "type": "div",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <button
-              onClick={[Function]}
-            >
-              <img
-                alt="right arrow"
-                source="arrow.svg"
-              />
-            </button>,
-          },
-          "ref": null,
-          "rendered": Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <img
-                alt="right arrow"
-                source="arrow.svg"
-              />,
-              "onClick": [Function],
-            },
-            "ref": null,
-            "rendered": Object {
+          "rendered": Array [
+            Object {
               "instance": null,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "alt": "right arrow",
-                "source": "arrow.svg",
+                "children": <img
+                  alt="left arrow"
+                  id="previousImage"
+                  src="arrow.svg"
+                />,
+                "onClick": [Function],
               },
               "ref": null,
-              "rendered": null,
-              "type": "img",
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "left arrow",
+                  "id": "previousImage",
+                  "src": "arrow.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "button",
             },
-            "type": "button",
-          },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="right arrow"
+                  id="nextImage"
+                  src="arrow.svg"
+                />,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "right arrow",
+                  "id": "nextImage",
+                  "src": "arrow.svg",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "button",
+            },
+          ],
           "type": "div",
         },
       ],
